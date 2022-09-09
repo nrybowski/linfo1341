@@ -1,0 +1,63 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.543034688771534
+    '@random_0': '0.543034688771534'
+    '@state': ''
+    '@time': '2022-09-09 10:32:51.614051'
+    '@username': test
+    q1: '2001:0db8:00fb:0000:0000:0000:0000:'
+    q2: 0000:0000:0000:0000:0000:0000::0000:0007
+    q3: 00e4:0000:0000:0000:0000:0000:0000:0000:0000
+    q4: 0009:0000:0000:0000:0000:000e:0000:00001
+    q5: 0000:0000:000421:0000:0000:0000:0007:0000
+    q6: 0000:0000:0000:0000::0000:0000:0000:0000
+    q7: 0060:0000:0000:0000:0000:0000:006d
+    q8: 2001:0db8:0000:000b:0000
+problems:
+    q1:
+    - failed
+    - 'It''s not a valid IPv6 address : Trailing '':'' only permitted as part of ''::''
+        in ''2001:0db8:00fb:0000:0000:0000:0000:'''
+    q2:
+    - failed
+    - 'It''s not a valid IPv6 address : Expected at most 7 other parts with ''::''
+        in ''0000:0000:0000:0000:0000:0000::0000:0007'''
+    q3:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''00e4:0000:0000:0000:0000:0000:0000:0000:0000'''
+    q4:
+    - failed
+    - 'It''s not a valid IPv6 address : At most 4 characters permitted in ''00001''
+        in ''0009:0000:0000:0000:0000:000e:0000:00001'''
+    q5:
+    - failed
+    - 'It''s not a valid IPv6 address : At most 4 characters permitted in ''000421''
+        in ''0000:0000:000421:0000:0000:0000:0007:0000'''
+    q6:
+    - failed
+    - 'It''s not a valid IPv6 address : Expected at most 7 other parts with ''::''
+        in ''0000:0000:0000:0000::0000:0000:0000:0000'''
+    q7:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''0060:0000:0000:0000:0000:0000:006d'''
+    q8:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''2001:0db8:0000:000b:0000'''
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-expand
+tests: {}
+text: ''

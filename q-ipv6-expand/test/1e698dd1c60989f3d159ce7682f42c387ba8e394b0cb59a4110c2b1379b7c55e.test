@@ -1,0 +1,58 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6391846094397465
+    '@random_0': '0.6391846094397465'
+    '@state': ''
+    '@time': '2022-08-29 00:03:15.977135'
+    '@username': test
+    q1: 2001:0db8:001a:0000:0000:0000:0000:00dd
+    q2: 0000:0000:0000:0000:0000:0000:0000:000a
+    q3: 00ce:0000:0000:0000:0000:0000:0000:0000
+    q4: 0002:0000:0000:0000:0000:0006:0000:0000
+    q5: '0000:0000:0002:0000:0000:0000:0006:0000:'
+    q6: '0000:0000:0000:0000:0000:0000:0000:0000:'
+    q7: '00f0:0000:0000:0000:0000:0000:0000:001c:'
+    q8: 2001:0db8:05fb:ae37:0000:0000:000f:0000
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''0000:0000:0002:0000:0000:0000:0006:0000:'''
+    q6:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''0000:0000:0000:0000:0000:0000:0000:0000:'''
+    q7:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''00f0:0000:0000:0000:0000:0000:0000:001c:'''
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-expand
+tests: {}
+text: ''

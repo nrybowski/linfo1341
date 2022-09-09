@@ -1,0 +1,56 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.0434049002783754
+    '@random_0': '0.0434049002783754'
+    '@state': ''
+    '@time': '2022-08-28 22:10:00.735771'
+    '@username': test
+    q1: 2001:0db8:003f:0000:0000:0000:0000:0054
+    q2: 0000:0000:0000:0000:0000:0000:0000:000b
+    q3: 00e6:0000:0000:0000:0000:0000:0000:0000
+    q4: 0001:0000:0000:0000:0000:0007:0000:0000
+    q5: 0000:0000:0001:0000:0000:0000:0007:0000
+    q6: 0000:0000:0000:0000:0000:0000:0000:0000
+    q7: 0070:0000:0000:0000:0000:0000:0000:001e
+    q8: 2001:0db8:0c41:04da7:0000:0000:000e:0000
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - failed
+    - 'It''s not a valid IPv6 address : At most 4 characters permitted in ''04da7''
+        in ''2001:0db8:0c41:04da7:0000:0000:000e:0000'''
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-expand
+tests: {}
+text: ''

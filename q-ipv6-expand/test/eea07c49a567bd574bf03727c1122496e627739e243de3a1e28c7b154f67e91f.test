@@ -1,0 +1,55 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.7980374008225946
+    '@random_0': '0.7980374008225946'
+    '@state': ''
+    '@time': '2022-08-26 14:14:15.257573'
+    '@username': test
+    q1: 2001:0db8:0041:0000:0000:0000:0000:004e
+    q2: 0000:0000:0000:0000:0000:0000:0000:000f
+    q3: 0067:0000:0000:0000:0000:0000:0000:0000
+    q4: 0007:0000:0000:0000:0000:0008:0000:0000
+    q5: 0000:0000:0001:0000:0000:0000:0006:0000
+    q6: 0000:0000:0000:0000:0000:0000:0000:0000
+    q7: 00f0:0000:0000:0000:0000:0000:0000:00d9
+    q8: 2001:0db8:0ac7:304d:0000:0000:0004:0000
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-expand
+tests: {}
+text: ''

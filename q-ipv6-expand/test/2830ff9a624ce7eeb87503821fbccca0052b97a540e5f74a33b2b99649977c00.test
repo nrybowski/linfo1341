@@ -1,0 +1,55 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.543034688771534
+    '@random_0': '0.543034688771534'
+    '@state': ''
+    '@time': '2022-09-09 10:36:35.222648'
+    '@username': test
+    q1: 2001:0db8:00fb:0000:0000::0000:003e
+    q2: 0000:0000:0000:0000:0000:0000::0007
+    q3: 00e4:0000:0000::0000:0000
+    q4: 0009:0000::0000:000e:0000:0000
+    q5: 0000:0000:0004:0000::0000:0007:0000
+    q6: 0000::0000:0000:0000
+    q7: 0060:0:0:0:0000:0000:0000:006d
+    q8: 2001:db8:0a02:2438:0:0000:000b:0000
+problems:
+    q1:
+    - failed
+    - The IPv6 address is not fully expand
+    q2:
+    - failed
+    - The IPv6 address is not fully expand
+    q3:
+    - failed
+    - The IPv6 address is not fully expand
+    q4:
+    - failed
+    - The IPv6 address is not fully expand
+    q5:
+    - failed
+    - The IPv6 address is not fully expand
+    q6:
+    - failed
+    - The IPv6 address is not fully expand
+    q7:
+    - failed
+    - The IPv6 address is not fully expand
+    q8:
+    - failed
+    - The IPv6 address is not fully expand
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-expand
+tests: {}
+text: ''
