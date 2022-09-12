@@ -1,0 +1,79 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.9549268318384824
+    '@random_0': '0.9549268318384824'
+    '@state': ''
+    '@time': '2022-08-28 15:04:30.694006'
+    '@username': test
+    q1: S12
+    q10: S35
+    q11: 1:root, 2:designated
+    q12: 1:designated, 2:root
+    q13: 1:blocked, 2:root
+    q14: 1:designated, 2:designated
+    q2: R=12,C=2,T=14
+    q3: R=12,C=1,T=35
+    q4: R=12,C=1,T=49
+    q5: R=12,C=0,T=12
+    q6: S35
+    q7: S12
+    q8: S49
+    q9: S12
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - success
+    - Correct
+    q11:
+    - failed
+    - The port 2 is not designated
+    q12:
+    - success
+    - Correct
+    q13:
+    - failed
+    - The port 1 is not blocked
+    q14:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+    q9:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-3
+tests: {}
+text: ''

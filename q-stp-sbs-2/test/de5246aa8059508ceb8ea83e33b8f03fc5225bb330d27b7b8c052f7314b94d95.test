@@ -1,0 +1,87 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.8260090023477947
+    '@random_0': '0.8260090023477947'
+    '@state': ''
+    '@time': '2022-09-12 11:10:35.649255'
+    '@username': test
+    q1: S10
+    q10: 1:designated, 2:designated
+    q11: 1:Root, 2:designated
+    q12: 1:root
+    q13: 1:blocked, 2:root, 3:designated
+    q2: R=10, C=0, T=10
+    q3: R=10, C=1, T=28
+    q4: R=10, C=2, T=11
+    q5: R=10, C=1, T=32
+    q6: '28'
+    q7: S11
+    q8: S32
+    q9: S10
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8 and
+        9 correctly.
+    q11:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8 and
+        9 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8 and
+        9 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8 and
+        9 correctly.
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q7:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q8:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q9:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-2
+tests: {}
+text: ''

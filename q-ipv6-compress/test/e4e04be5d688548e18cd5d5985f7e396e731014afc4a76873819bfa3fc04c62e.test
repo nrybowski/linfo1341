@@ -1,0 +1,55 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.48657341314821
+    '@random_0': '0.48657341314821'
+    '@state': ''
+    '@time': '2022-09-09 13:29:58.885652'
+    '@username': test
+    q1: '2001:0db8:01db::'
+    q2: 0::b
+    q3: dd0::0
+    q4: 2001:db8:c000:0:0:0:0:0b9
+    q5: 0:0:a8::0bf
+    q6: f13a::a72:0:0:0000
+    q7: a00a:a40:8a9:910:c0:98:7:0500
+    q8: 2001:db8:521:7721::a:0000
+problems:
+    q1:
+    - success
+    - Correct but there is a more compressed form ``2001:db8:1db::``
+    q2:
+    - success
+    - Correct but there is a more compressed form ``::b``
+    q3:
+    - success
+    - Correct but there is a more compressed form ``dd0::``
+    q4:
+    - success
+    - Correct but there is a more compressed form ``2001:db8:c000::b9``
+    q5:
+    - success
+    - Correct but there is a more compressed form ``0:0:a8::bf``
+    q6:
+    - success
+    - Correct but there is a more compressed form ``f13a::a72:0:0:0``
+    q7:
+    - success
+    - Correct but there is a more compressed form ``a00a:a40:8a9:910:c0:98:7:500``
+    q8:
+    - success
+    - Correct but there is a more compressed form ``2001:db8:521:7721::a:0``
+response_type: rst
+result: success
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-compress
+tests: {}
+text: ''

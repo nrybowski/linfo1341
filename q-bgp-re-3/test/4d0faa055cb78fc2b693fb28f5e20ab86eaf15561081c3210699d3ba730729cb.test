@@ -1,0 +1,30 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.5004348516100761
+    '@random_0': '0.5004348516100761'
+    '@state': '{"q1": ""}'
+    '@time': '2022-09-12 10:07:46.004728'
+    '@username': test
+    q1:
+    - '7'
+    - '6'
+    - '8'
+problems:
+    q1:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: '{"q1": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-bgp-re-3
+tests: {}
+text: ''

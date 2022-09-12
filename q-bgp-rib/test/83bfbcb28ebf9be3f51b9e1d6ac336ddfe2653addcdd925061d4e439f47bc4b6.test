@@ -1,0 +1,41 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6521357604803709
+    '@random_0': '0.6521357604803709'
+    '@state': ''
+    '@time': '2022-09-12 14:16:09.591688'
+    '@username': test
+    q1: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63
+    q2: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63, p100-AS100
+    q3: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63, p100-AS100
+    q4: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63, p100-AS100
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - failed
+    - AS100 will not announce a prefix learned by a provider to a provider; AS100
+        will not announce a prefix learned by a shared-cost to a provider
+    q3:
+    - success
+    - Correct
+    q4:
+    - failed
+    - AS100 will not announce a prefix learned by a provider to a shared-cost; AS100
+        will not announce a prefix learned by a shared-cost to a shared-cost
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rib
+tests: {}
+text: ''

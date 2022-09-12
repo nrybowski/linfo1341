@@ -1,0 +1,80 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6395383338705207
+    '@random_0': '0.6395383338705207'
+    '@state': ''
+    '@time': '2022-09-12 11:19:55.580946'
+    '@username': test
+    q1: s11
+    q10: '24'
+    q11: 1:root, 2:blocked
+    q12: 1:designated, 2:root
+    q13: 1:designated, 2:root
+    q14: 1:designated, 2:designated
+    q2: R=20, C=2, T=22
+    q3: R=20, C=1, T=24
+    q4: R=20, C=1, T=32
+    q5: R=20, C=0, T=20
+    q6: '24'
+    q7: '20'
+    q8: '32'
+    q9: '20'
+problems:
+    q1:
+    - failed
+    - Wrong input format. Please provide an answer with the format Sx where x is the
+        number of the switch
+    q10:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q11:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q14:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q2:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q3:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q4:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q5:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q6:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q7:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q8:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+    q9:
+    - failed
+    - This question will be corrected when you have answered question 1 correctly.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-3
+tests: {}
+text: ''

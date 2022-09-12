@@ -1,0 +1,37 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.2464890847752329
+    '@random_0': '0.2464890847752329'
+    '@state': ''
+    '@time': '2022-08-28 10:13:03.893126'
+    '@username': test
+    q1:
+    - '6'
+    - '1'
+    - '8'
+    - '7'
+    - '0'
+problems:
+    q1:
+    - failed
+    - |-
+        Over a *customer->provider* relationship, the *customer domain* only advertises to its provider its own prefixes and all the routes that it has learned from its own customers.
+        Over a *customer->provider* relationship, the *provider* advertises all the routes that it knows to its customer.
+        Over a *shared-cost* peering relationship, a domain only advertises its own prefixes and all the routes that it has learned from its own customers.
+response_type: rst
+result: failed
+state: '{"q1": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-bgp-re-2
+tests: {}
+text: |-
+    You have 1 wrong answer(s).
+    Among them, you have 2 invalid answers in the multiple choice questions

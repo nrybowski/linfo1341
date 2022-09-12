@@ -1,0 +1,69 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.2077310123875915
+    '@random_0': '0.2077310123875915'
+    '@state': ''
+    '@time': '2022-08-26 18:07:20.056744'
+    '@username': test
+    q1: S2
+    q10: 1:blocked, 2:root
+    q2: R=2,C=0,T=0
+    q3: R=10,C=0,T=0
+    q4: R=15,C=0,T=0
+    q5: S2
+    q6: S2
+    q7: S10
+    q8: 1:designated, 2:designated
+    q9: 1:root, 2:designated
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+    q2:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+    q3:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+    q4:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+    q5:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+    q6:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+    q7:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+    q8:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+    q9:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3 and 4
+        correctly.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-1
+tests: {}
+text: ''

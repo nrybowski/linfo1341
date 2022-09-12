@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.41540150132056053
+    '@random_0': '0.41540150132056053'
+    '@state': ''
+    '@time': '2022-08-28 16:24:23.547753'
+    '@username': test
+    q1: AS1
+    q2: AS2:AS1, AS1, AS3:AS2:AS1
+    q3: AS2:AS1
+    q4: AS4:AS1
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - failed
+    - There are missing paths
+    q4:
+    - failed
+    - Your best path is incorrect
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-1
+tests: {}
+text: ''

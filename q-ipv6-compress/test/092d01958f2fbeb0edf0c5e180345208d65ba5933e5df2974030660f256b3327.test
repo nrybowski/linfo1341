@@ -1,0 +1,59 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.48657341314821
+    '@random_0': '0.48657341314821'
+    '@state': ''
+    '@time': '2022-09-09 13:28:43.630703'
+    '@username': test
+    q1: '2001:0db8:01db:0000:0000:0000:'
+    q2: :b
+    q3: '0dd0:0000:0000:0000:0000:0000:0000:0000:'
+    q4: 2001:0db8:c000:0000:0000:0000:00b9
+    q5: ::a8::bf
+    q6: f13a:::a72:0:0:0
+    q7: 0a00a:a40:8a9:910:c0:98:7:500
+    q8: 2001:db8:521:7721::a::0
+problems:
+    q1:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''2001:0db8:01db:0000:0000:0000:'''
+    q2:
+    - failed
+    - 'It''s not a valid IPv6 address : At least 3 parts expected in '':b'''
+    q3:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''0dd0:0000:0000:0000:0000:0000:0000:0000:'''
+    q4:
+    - failed
+    - 'It''s not a valid IPv6 address : Exactly 8 parts expected without ''::'' in
+        ''2001:0db8:c000:0000:0000:0000:00b9'''
+    q5:
+    - failed
+    - 'It''s not a valid IPv6 address : At most one ''::'' permitted in ''::a8::bf'''
+    q6:
+    - failed
+    - 'It''s not a valid IPv6 address : At most one ''::'' permitted in ''f13a:::a72:0:0:0'''
+    q7:
+    - failed
+    - 'It''s not a valid IPv6 address : At most 4 characters permitted in ''0a00a''
+        in ''0a00a:a40:8a9:910:c0:98:7:500'''
+    q8:
+    - failed
+    - 'It''s not a valid IPv6 address : At most one ''::'' permitted in ''2001:db8:521:7721::a::0'''
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-compress
+tests: {}
+text: ''

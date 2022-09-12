@@ -1,0 +1,43 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.07513513368211266
+    '@random_0': '0.07513513368211266'
+    '@state': ''
+    '@time': '2022-09-12 11:29:59.873662'
+    '@username': test
+    q1: R=24,C=1,T=S24
+    q2: R=S19,C=2,T=S24
+    q3: R=31, C= 3, T=19
+    q4: R=S19,C=0,T=19
+    q5: R=S19,c=4,T=42
+problems:
+    q1:
+    - failed
+    - Incorrect root; Incorrect cost; Incorrect identifier of the switch
+    q2:
+    - failed
+    - Incorrect cost
+    q3:
+    - failed
+    - Incorrect root; Incorrect identifier of the switch
+    q4:
+    - failed
+    - Incorrect cost; Incorrect identifier of the switch
+    q5:
+    - failed
+    - Incorrect identifier of the switch
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-4
+tests: {}
+text: ''

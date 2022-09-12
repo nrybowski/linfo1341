@@ -1,0 +1,88 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.11870146384144753
+    '@random_0': '0.11870146384144753'
+    '@state': ''
+    '@time': '2022-08-27 20:14:09.471399'
+    '@username': test
+    q1: S26
+    q10: S44
+    q11: 1:root,2:blocked
+    q12: 1:root,2:designated
+    q13: 1:designated,2:root
+    q14: 1:designated,2:designated
+    q2: R=26,C=2,T=46
+    q3: R=26,C=1,T=26
+    q4: R=26,C=1,T=49
+    q5: R=26,C=0,T=26
+    q6: S44
+    q7: S26
+    q8: S49
+    q9: S26
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q11:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q14:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q2:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+    q3:
+    - failed
+    - Incorrect identifier of the switch
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q7:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q8:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q9:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-3
+tests: {}
+text: ''

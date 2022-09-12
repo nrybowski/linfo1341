@@ -1,0 +1,43 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.7671572247182585
+    '@random_0': '0.7671572247182585'
+    '@state': ''
+    '@time': '2022-08-28 17:57:38.393889'
+    '@username': test
+    q1: R=8, C=0, T=8
+    q2: R=8, C=4, T=12
+    q3: R=8, C=8, T=30
+    q4: R=8, C=1, T=32
+    q5: R=8, C=3, T=48
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - failed
+    - Incorrect cost
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-5
+tests: {}
+text: ''

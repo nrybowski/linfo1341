@@ -1,0 +1,82 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6395383338705207
+    '@random_0': '0.6395383338705207'
+    '@state': ''
+    '@time': '2022-09-12 11:21:43.460416'
+    '@username': test
+    q1: S20
+    q10: '24'
+    q11: 1:root; 2:blocked
+    q12: 1=designated, 2=root
+    q13: 1:designated, 3:root
+    q14: 1:DESIGNAted, 2:designated
+    q2: R=20, C=2, T=22
+    q3: R=20, C=1, T=24
+    q4: R=20, C=1, T=32
+    q5: R=20, C=0, T=20
+    q6: '24'
+    q7: '20'
+    q8: '32'
+    q9: '20'
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - success
+    - Correct
+    q11:
+    - failed
+    - Wrong input format. Please provide an answer with the format 1:Root, 2:Designated,
+        3:Blocked, ...
+    q12:
+    - failed
+    - Wrong input format. Please provide an answer with the format 1:Root, 2:Designated,
+        3:Blocked, ...
+    q13:
+    - failed
+    - Wrong input format. Please provide an answer with the format 1:Root, 2:Designated,
+        3:Blocked, ...
+    q14:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+    q9:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-3
+tests: {}
+text: ''

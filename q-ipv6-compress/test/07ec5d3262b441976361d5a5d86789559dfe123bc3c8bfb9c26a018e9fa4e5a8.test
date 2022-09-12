@@ -1,0 +1,55 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.48657341314821
+    '@random_0': '0.48657341314821'
+    '@state': ''
+    '@time': '2022-09-09 13:30:54.935286'
+    '@username': test
+    q1: '3001:db8:1db::'
+    q2: ::c
+    q3: 'dd1::'
+    q4: 2001:db8:c000::b0
+    q5: 0:0:a9::bf
+    q6: f13b::a72:0:0:0
+    q7: a00a:a40:8a9:910:c0:98:7:600
+    q8: 2001:db8:521:7721::a:01
+problems:
+    q1:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q2:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q3:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q4:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q5:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q6:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q7:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q8:
+    - failed
+    - The IPv6 address is not the same as the one given
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-compress
+tests: {}
+text: ''

@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6072669541023082
+    '@random_0': '0.6072669541023082'
+    '@state': ''
+    '@time': '2022-08-26 17:49:09.589009'
+    '@username': test
+    q1: AS5:AS3:AS1:AS2
+    q2: AS5:AS3:AS1:AS2
+    q3: AS5:AS3:AS1:AS2
+    q4: AS5:AS3:AS1:AS2
+problems:
+    q1:
+    - failed
+    - This AS does not have a route for the prefix
+    q2:
+    - failed
+    - Your best path is incorrect
+    q3:
+    - failed
+    - There are missing paths
+    q4:
+    - failed
+    - Your best path is incorrect
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-2
+tests: {}
+text: ''

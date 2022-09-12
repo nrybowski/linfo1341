@@ -1,0 +1,42 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6521357604803709
+    '@random_0': '0.6521357604803709'
+    '@state': ''
+    '@time': '2022-09-12 14:18:00.917360'
+    '@username': test
+    q1: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63:AS36:AS63
+    q2: p74-AS86:AS80:AS74, p45-AS10:AS46, p100-AS100
+    q3: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10AS46 ,p63-AS36:AS63, p100-AS100
+    q4: p74-AS86:AS80:AS74, p46-AS10:AS46, p100-as100
+problems:
+    q1:
+    - failed
+    - Wrong input format. Please provide your answer as a list <prefix>-<route> such
+        as p1-AS2:AS1, p2-AS2, ...
+    q2:
+    - failed
+    - Wrong input format. Please provide your answer as a list <prefix>-<route> such
+        as p1-AS2:AS1, p2-AS2, ...
+    q3:
+    - failed
+    - Wrong input format. Please provide your answer as a list <prefix>-<route> such
+        as p1-AS2:AS1, p2-AS2, ...
+    q4:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rib
+tests: {}
+text: ''

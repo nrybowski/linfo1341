@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.8410088724660364
+    '@random_0': '0.8410088724660364'
+    '@state': ''
+    '@time': '2022-09-12 10:44:31.718616'
+    '@username': test
+    q1: '0'
+    q2: AS3:AS6
+    q3: AS4, AS5:AS3:AS6
+    q4: AS6
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - failed
+    - Wrong input format
+    q3:
+    - failed
+    - Wrong input format
+    q4:
+    - failed
+    - Wrong input format
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-2
+tests: {}
+text: ''

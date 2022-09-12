@@ -1,0 +1,43 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.10454332382204157
+    '@random_0': '0.10454332382204157'
+    '@state': ''
+    '@time': '2022-09-12 10:47:06.296645'
+    '@username': test
+    q1: '0'
+    q2: '0'
+    q3: '0'
+    q4: '0'
+    q5: '0'
+problems:
+    q1:
+    - failed
+    - There is at least one route for the prefix
+    q2:
+    - failed
+    - There is at least one route for the prefix
+    q3:
+    - failed
+    - There is at least one route for the prefix
+    q4:
+    - failed
+    - There is at least one route for the prefix
+    q5:
+    - failed
+    - There is at least one route for the prefix
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-3
+tests: {}
+text: ''

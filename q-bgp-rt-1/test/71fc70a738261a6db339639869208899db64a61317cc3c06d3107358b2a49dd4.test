@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.5159697589448026
+    '@random_0': '0.5159697589448026'
+    '@state': ''
+    '@time': '2022-08-28 22:41:09.147682'
+    '@username': test
+    q1: AS2
+    q2: AS4:AS2,AS2,AS3:AS4:AS2
+    q3: AS4:AS2,AS5:AS1:AS4
+    q4: AS1:AS4:AS2
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - failed
+    - Your second path does not end to AS2
+    q4:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-1
+tests: {}
+text: ''

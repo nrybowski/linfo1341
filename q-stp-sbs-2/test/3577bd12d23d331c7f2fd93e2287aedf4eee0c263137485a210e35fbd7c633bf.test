@@ -1,0 +1,83 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.8260090023477947
+    '@random_0': '0.8260090023477947'
+    '@state': ''
+    '@time': '2022-09-12 11:07:54.334678'
+    '@username': test
+    q1: S10
+    q10: 1:designated, 2:designated
+    q11: 1:Root, 2:designated
+    q12: 1:root
+    q13: 1:blocked, 2:root, 3:designated
+    q2: R=11, C=0, T=10
+    q3: R=10, C=2, T=28
+    q4: R=10, C=2, T=10
+    q5: R=11, C=0, T=10
+    q6: S10
+    q7: S10
+    q8: S28
+    q9: S32
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q11:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q2:
+    - failed
+    - Incorrect root
+    q3:
+    - failed
+    - Incorrect cost
+    q4:
+    - failed
+    - Incorrect identifier of the switch
+    q5:
+    - failed
+    - Incorrect root; Incorrect cost; Incorrect identifier of the switch
+    q6:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q7:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q8:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q9:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-2
+tests: {}
+text: ''

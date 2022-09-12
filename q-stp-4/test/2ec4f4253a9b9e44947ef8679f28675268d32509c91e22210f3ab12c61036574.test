@@ -1,0 +1,47 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.07513513368211266
+    '@random_0': '0.07513513368211266'
+    '@state': ''
+    '@time': '2022-09-12 11:29:11.959270'
+    '@username': test
+    q1: R=S19,C=0,T:S19
+    q2: R=S19; C=5,T=S24
+    q3: R=S19, C= 3; T=S31
+    q4: R=S19; C=1,T=S42
+    q5: R=S19,c=4,T= S48
+problems:
+    q1:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q2:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q3:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q4:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q5:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-4
+tests: {}
+text: ''

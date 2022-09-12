@@ -1,0 +1,63 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.9493326556735754
+    '@random_0': '0.9493326556735754'
+    '@state': ''
+    '@time': '2022-08-27 20:00:03.201313'
+    '@username': test
+    q1: S6
+    q10: 1:blocked, 2:root
+    q2: R=6,C=0,T=6
+    q3: R=6,C=1,T=18
+    q4: R=6,C=1,T=46
+    q5: S6
+    q6: S6
+    q7: S18
+    q8: '1:designated,2:designated '
+    q9: 1:root, 2:designated
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+    q9:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-1
+tests: {}
+text: ''

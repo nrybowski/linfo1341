@@ -1,0 +1,43 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.10454332382204157
+    '@random_0': '0.10454332382204157'
+    '@state': ''
+    '@time': '2022-09-12 10:51:15.606982'
+    '@username': test
+    q1: AS6:AS5, AS2:AS1:AS6:AS5, AS5
+    q2: AS5, AS5
+    q3: AS1:AS6:AS5, AS3:AS5, AS5
+    q4: AS5, AS1:AS6:AS5, AS5
+    q5: AS6:AS5, AS5
+problems:
+    q1:
+    - failed
+    - There are too many paths
+    q2:
+    - failed
+    - There are too many paths
+    q3:
+    - failed
+    - There are too many paths
+    q4:
+    - failed
+    - There are too many paths
+    q5:
+    - failed
+    - There are too many paths
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-3
+tests: {}
+text: ''

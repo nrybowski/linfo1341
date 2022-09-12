@@ -1,0 +1,60 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random': []
+    '@state': ''
+    '@time': '2022-08-31 08:47:00.195757'
+    '@username': test
+    q1:
+    - '3'
+    - '1'
+    - '0'
+    - '4'
+    - '8'
+    - '7'
+    - '2'
+    - '5'
+    - '9'
+    q2: '9'
+    q3:
+    - '1'
+    - '2'
+    - '5'
+    - '0'
+    q4: '5'
+    q5:
+    - '1'
+    - '0'
+    q6: '1'
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-ipv6-matching
+tests: {}
+text: ''

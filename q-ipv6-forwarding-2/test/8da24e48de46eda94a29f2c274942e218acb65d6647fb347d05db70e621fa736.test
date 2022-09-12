@@ -1,0 +1,55 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.693727024076259
+    '@random_0': '0.693727024076259'
+    '@state': ''
+    '@time': '2022-08-31 09:00:17.235598'
+    '@username': test
+    q1: nx
+    q2: interface2
+    q3: nexthop2
+    q4: interface3
+    q5: nexthop4
+    q6: nexthop0
+    q7: interface4
+    q8: nexthop1
+problems:
+    q1:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-forwarding-2
+tests: {}
+text: ''

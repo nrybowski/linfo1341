@@ -1,0 +1,57 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.693727024076259
+    '@random_0': '0.693727024076259'
+    '@state': ''
+    '@time': '2022-09-09 13:45:48.125710'
+    '@username': test
+    q1: interface5
+    q2: interface4
+    q3: interface10
+    q4: nexthop10
+    q5: nexthop11
+    q6: nexthop19
+    q7: nexthop8
+    q8: nexthop13
+problems:
+    q1:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q2:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q3:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q4:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q5:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q6:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q7:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+    q8:
+    - failed
+    - Wrong input format. Please provide a valid nexthop or interface.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-forwarding-2
+tests: {}
+text: ''

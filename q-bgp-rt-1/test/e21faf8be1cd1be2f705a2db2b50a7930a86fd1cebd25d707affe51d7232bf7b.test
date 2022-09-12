@@ -1,0 +1,39 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.7455943180841185
+    '@random_0': '0.7455943180841185'
+    '@state': ''
+    '@time': '2022-09-12 10:42:17.279379'
+    '@username': test
+    q1: 'AS3   '
+    q2: 'AS2  : AS3 ,  AS3 ,   AS4 : AS2 :  AS3'
+    q3: 'AS2:AS3, AS5:AS1:AS2:AS3   '
+    q4: 'AS1: AS2: AS3'
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-1
+tests: {}
+text: ''

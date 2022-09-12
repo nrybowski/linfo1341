@@ -1,0 +1,79 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.914027789769859
+    - 0.7391538769989755
+    - 0.8463299700132769
+    - 0.35194436176346233
+    - 0.31349564072727987
+    - 0.8256671722171962
+    '@random_0': '0.914027789769859'
+    '@random_1': '0.7391538769989755'
+    '@random_2': '0.8463299700132769'
+    '@random_3': '0.35194436176346233'
+    '@random_4': '0.31349564072727987'
+    '@random_5': '0.8256671722171962'
+    '@state': '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+    '@time': '2022-09-12 10:02:47.769044'
+    '@username': test
+    q1:
+    - '1'
+    - '2'
+    - '0'
+    - '3'
+    q2:
+    - '0'
+    q3:
+    - '3'
+    - '2'
+    - '0'
+    - '1'
+    q4:
+    - '1'
+    - '0'
+    - '3'
+    - '2'
+    q5:
+    - '0'
+    q6:
+    - '0'
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - failed
+    - Over a *customer->provider relationship*, the *customer domain* only advertises
+        to its provider its own prefixes and all the routes that it has learned from
+        its own customers.
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - failed
+    - |-
+        Over a *shared-cost* peering relationship, a domain only advertises its own prefixes and all the routes that it has learned from its own customers.
+        Over a *customer->provider* relationship, the *customer domain* only advertises to its provider its own prefixes and all the routes that it has learned from its own customers.
+    q6:
+    - failed
+    - Over a *shared-cost* peering relationship, a domain only advertises its own
+        prefixes and all the routes that it has learned from its own customers.
+response_type: rst
+result: failed
+state: '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-bgp-re-1
+tests: {}
+text: |-
+    Vous avez 3 mauvaise(s) réponse(s).
+    Parmi celles-ci, vous avez 9 réponse(s) invalide(s) dans les questions à choix multiple

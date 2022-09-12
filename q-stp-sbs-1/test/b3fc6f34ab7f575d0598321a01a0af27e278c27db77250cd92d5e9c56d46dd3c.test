@@ -1,0 +1,75 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.967931556341486
+    '@random_0': '0.967931556341486'
+    '@state': ''
+    '@time': '2022-09-12 11:02:23.356806'
+    '@username': test
+    q1: S13
+    q10: 1:designated, 2:blocked
+    q2: R=13, C=0, T=13
+    q3: R=13, C=1, T=16
+    q4: R=13, C=1, T=29
+    q5: S13
+    q6: '13'
+    q7: S16
+    q8: 1:blocked, 2:root
+    q9: 1:designated, 2:root
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - The port 1 is not designated; The port 2 is not blocked. All ports on the root
+        switch are in the designated state. For the other switches, the port with
+        the best incoming BPDU is in a root state. The other ports are either designated
+        or blocked. If the switch's BPDU is better than the one received on a port,
+        the port is in a designated state, otherwise it is in a blocked state.
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - failed
+    - The port 1 is not blocked; The port 2 is not root. All ports on the root switch
+        are in the designated state. For the other switches, the port with the best
+        incoming BPDU is in a root state. The other ports are either designated or
+        blocked. If the switch's BPDU is better than the one received on a port, the
+        port is in a designated state, otherwise it is in a blocked state.
+    q9:
+    - failed
+    - The port 1 is not designated; The port 2 is not root. All ports on the root
+        switch are in the designated state. For the other switches, the port with
+        the best incoming BPDU is in a root state. The other ports are either designated
+        or blocked. If the switch's BPDU is better than the one received on a port,
+        the port is in a designated state, otherwise it is in a blocked state.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-1
+tests: {}
+text: ''

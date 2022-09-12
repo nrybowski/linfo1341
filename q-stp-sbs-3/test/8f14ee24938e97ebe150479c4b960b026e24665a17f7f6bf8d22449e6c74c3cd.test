@@ -1,0 +1,92 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6395383338705207
+    '@random_0': '0.6395383338705207'
+    '@state': ''
+    '@time': '2022-09-12 11:17:47.757493'
+    '@username': test
+    q1: S20
+    q10: S20
+    q11: 1:root, 2:blocked
+    q12: 1:designated, 2:root
+    q13: 1:designated, 2:root
+    q14: 1:designated, 2:designated
+    q2: R=20, C=2, T=22
+    q3: R=20, C=1, T=24
+    q4: R=20, C=1, T=32
+    q5: R=20, C=0, T=20
+    q6: S23
+    q7: S32
+    q8: S22
+    q9: S24
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q11:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8, 9
+        and 10 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8, 9
+        and 10 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8, 9
+        and 10 correctly.
+    q14:
+    - failed
+    - This question will be corrected when you have answered questions 6, 7, 8, 9
+        and 10 correctly.
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - failed
+    - Wrong input format. Please provide an answer with the format Sx where x is the
+        number of the switch
+    q7:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q8:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+    q9:
+    - failed
+    - BPDU1 [R=R1, C=C1, T=T1] is better than BPDU2 [R=R2, C=C2, T=T2] when R1 < R2.
+        If R1 = R2, BPDU1 is better if C1 < C2. If R1 = R2 and C1 = C2 then BPDU1
+        is better if T1 < T2.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-3
+tests: {}
+text: ''

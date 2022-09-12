@@ -1,0 +1,44 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6521357604803709
+    '@random_0': '0.6521357604803709'
+    '@state': ''
+    '@time': '2022-09-12 14:20:22.527601'
+    '@username': test
+    q1: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63
+    q2: p100-AS100
+    q3: p100-AS100
+    q4: p100-AS100
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - failed
+    - AS100 will annouce a prefix learned by a client to a provider; AS100 will always
+        advertise a prefixe learned by a client
+    q3:
+    - failed
+    - AS100 will annouce a prefix learned by a client to a client; AS100 will announce
+        a prefix learned by a provider to a client; AS100 will announce a prefix learned
+        by a shared-cost to a client; AS100 will always advertise a prefixe learned
+        by a client
+    q4:
+    - failed
+    - AS100 will annouce a prefix learned by a client to a shared-cost; AS100 will
+        always advertise a prefixe learned by a client
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rib
+tests: {}
+text: ''

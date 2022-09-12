@@ -1,0 +1,55 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.48657341314821
+    '@random_0': '0.48657341314821'
+    '@state': ''
+    '@time': '2022-09-09 13:31:54.194955'
+    '@username': test
+    q1: '2001:0db8:01db::'
+    q2: ::c
+    q3: 'dd0:::'
+    q4: 2001:db8:c000::b9
+    q5: 0:0:a8::00bf
+    q6: f13a::a72:0:0:01
+    q7: a00a:a40:8a9:910:c0:98:7:0500
+    q8: 2001:db8:521:7721::a:0
+problems:
+    q1:
+    - success
+    - Correct but there is a more compressed form ``2001:db8:1db::``
+    q2:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q3:
+    - failed
+    - 'It''s not a valid IPv6 address : At most one ''::'' permitted in ''dd0:::'''
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct but there is a more compressed form ``0:0:a8::bf``
+    q6:
+    - failed
+    - The IPv6 address is not the same as the one given
+    q7:
+    - success
+    - Correct but there is a more compressed form ``a00a:a40:8a9:910:c0:98:7:500``
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-compress
+tests: {}
+text: ''

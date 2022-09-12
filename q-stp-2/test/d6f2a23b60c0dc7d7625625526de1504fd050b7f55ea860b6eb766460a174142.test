@@ -1,0 +1,53 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.7217667230360854
+    '@random_0': '0.7217667230360854'
+    '@state': '{"q1": "", "q2": "", "q3": "", "q4": ""}'
+    '@time': '2022-08-26 18:13:02.217399'
+    '@username': test
+    q1: '0'
+    q2:
+    - '3'
+    - '1'
+    - '9'
+    - '6'
+    - '0'
+    q3:
+    - '2'
+    - '7'
+    - '5'
+    - '10'
+    - '4'
+    q4:
+    - '8'
+    - '10'
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - failed
+    - Wrong answer. Make sure to select all the valid possibilities
+    q3:
+    - failed
+    - Wrong answer. Make sure to select all the valid possibilities
+    q4:
+    - failed
+    - Wrong answer. Make sure to select all the valid possibilities
+response_type: rst
+result: failed
+state: '{"q1": "", "q2": "", "q3": "", "q4": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-stp-2
+tests: {}
+text: |-
+    You have 3 wrong answer(s).
+    Among them, you have 4 invalid answers in the multiple choice questions

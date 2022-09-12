@@ -1,0 +1,86 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.8260090023477947
+    '@random_0': '0.8260090023477947'
+    '@state': ''
+    '@time': '2022-09-12 11:13:26.870852'
+    '@username': test
+    q1: '10'
+    q10: 1:designated, 2:designated
+    q11: 1:Root, 2:designated
+    q12: 1:root
+    q13: 1:blocked, 2:root, 3:designated
+    q2: r=10, c=0, t=10
+    q3: R=10, T=28
+    q4: r:10, C=2, T=11
+    q5: R=10, C=1
+    q6: S10
+    q7: S10
+    q8: S28
+    q9: S32
+problems:
+    q1:
+    - success
+    - Correct
+    q10:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q11:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q12:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q13:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q2:
+    - success
+    - Correct
+    q3:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q4:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q5:
+    - failed
+    - Wrong input format. Please provide an answer with the format R=123,C=45,T=678
+        (Don't put the port number)
+    q6:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q7:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q8:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+    q9:
+    - failed
+    - This question will be corrected when you have answered questions 2, 3, 4 and
+        5 correctly.
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-stp-sbs-2
+tests: {}
+text: ''

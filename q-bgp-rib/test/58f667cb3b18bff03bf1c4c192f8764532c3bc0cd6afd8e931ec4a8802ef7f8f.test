@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6521357604803709
+    '@random_0': '0.6521357604803709'
+    '@state': ''
+    '@time': '2022-09-12 14:17:21.127302'
+    '@username': test
+    q1: p74-AS86:AS80:AS75, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS63
+    q2: p74-AS86:AS80:AS75, p30-AS61:AS30, p46-AS10:AS46 ,p63-AS36:AS62, p100-AS100
+    q3: p74-AS86:AS80:AS74, p30-AS61:AS30, p46-AS10:AS36 ,p63-AS36:AS63, p100-AS100
+    q4: p74-AS86:AS80:AS74, p30-AS100:AS30, p46-AS10:AS46 ,p63-AS36:AS63, p100-AS100
+problems:
+    q1:
+    - failed
+    - Route for p74 is not in the RIB
+    q2:
+    - failed
+    - Route for p74 is not in the RIB
+    q3:
+    - failed
+    - Route for p46 is not in the RIB
+    q4:
+    - failed
+    - Route for p30 is not in the RIB
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rib
+tests: {}
+text: ''

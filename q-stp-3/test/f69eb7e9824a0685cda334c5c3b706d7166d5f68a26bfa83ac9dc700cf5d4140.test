@@ -1,0 +1,51 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.09040127491587391
+    '@random_0': '0.09040127491587391'
+    '@state': ''
+    '@time': '2022-08-24 12:03:58.845225'
+    '@username': test
+    q1: '0'
+    q2:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '5'
+    - '7'
+    q3:
+    - '4'
+    - '6'
+    - '9'
+    q4:
+    - '8'
+    - '10'
+    - '11'
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: '{"q1": "", "q2": "", "q3": "", "q4": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-stp-3
+tests: {}
+text: ''

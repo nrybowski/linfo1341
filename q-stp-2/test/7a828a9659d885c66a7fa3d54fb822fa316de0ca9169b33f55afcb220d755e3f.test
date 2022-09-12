@@ -1,0 +1,59 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.5439054753371271
+    '@random_0': '0.5439054753371271'
+    '@state': '{"q1": "", "q2": "", "q3": "", "q4": ""}'
+    '@time': '2022-09-12 11:23:54.777818'
+    '@username': test
+    q1: '3'
+    q2:
+    - '4'
+    - '6'
+    - '3'
+    - '5'
+    - '1'
+    - '9'
+    - '0'
+    q3:
+    - '9'
+    - '4'
+    - '10'
+    - '7'
+    - '2'
+    q4:
+    - '4'
+    - '8'
+    - '11'
+problems:
+    q1:
+    - failed
+    - Réponse incorrecte
+    q2:
+    - failed
+    - Réponse incorrecte. Assurez-vous d'avoir sélectionné toutes les possibilités
+        valides
+    q3:
+    - failed
+    - Réponse incorrecte. Assurez-vous d'avoir sélectionné toutes les possibilités
+        valides
+    q4:
+    - failed
+    - Réponse incorrecte. Assurez-vous d'avoir sélectionné toutes les possibilités
+        valides
+response_type: rst
+result: failed
+state: '{"q1": "", "q2": "", "q3": "", "q4": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-stp-2
+tests: {}
+text: |-
+    Vous avez 4 mauvaise(s) réponse(s).
+    Parmi celles-ci, vous avez 4 réponse(s) invalide(s) dans les questions à choix multiple

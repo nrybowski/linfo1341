@@ -1,0 +1,81 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.914027789769859
+    - 0.7391538769989755
+    - 0.8463299700132769
+    - 0.35194436176346233
+    - 0.31349564072727987
+    - 0.8256671722171962
+    '@random_0': '0.914027789769859'
+    '@random_1': '0.7391538769989755'
+    '@random_2': '0.8463299700132769'
+    '@random_3': '0.35194436176346233'
+    '@random_4': '0.31349564072727987'
+    '@random_5': '0.8256671722171962'
+    '@state': '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+    '@time': '2022-09-12 10:01:19.111272'
+    '@username': test
+    q1:
+    - '1'
+    - '0'
+    - '3'
+    q2:
+    - '2'
+    q3:
+    - '3'
+    - '2'
+    - '1'
+    q4:
+    - '1'
+    - '0'
+    - '2'
+    q5:
+    - '1'
+    q6:
+    - '1'
+problems:
+    q1:
+    - failed
+    - |-
+        Over a *customer->provider relationship*, the *customer domain* only advertises to its provider its own prefixes and all the routes that it has learned from its own customers.
+        Over a *customer->provider relationship*, the *provider* advertises all the routes that it knows to its customer.
+    q2:
+    - failed
+    - Over a *customer->provider relationship*, the *customer domain* only advertises
+        to its provider its own prefixes and all the routes that it has learned from
+        its own customers.
+    q3:
+    - failed
+    - Over a *customer->provider* relationship, the *provider* advertises all the
+        routes that it knows to its customer.
+    q4:
+    - failed
+    - |-
+        Over a *shared-cost* peering relationship, a domain only advertises its own prefixes and all the routes that it has learned from its own customers.
+        Over a *customer->provider* relationship, the *provider* advertises all the routes that it knows to its customer.
+    q5:
+    - failed
+    - |-
+        Over a *shared-cost* peering relationship, a domain only advertises its own prefixes and all the routes that it has learned from its own customers.
+        Over a *customer->provider* relationship, the *customer domain* only advertises to its provider its own prefixes and all the routes that it has learned from its own customers.
+    q6:
+    - failed
+    - Over a *shared-cost* peering relationship, a domain only advertises its own
+        prefixes and all the routes that it has learned from its own customers.
+response_type: rst
+result: failed
+state: '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-bgp-re-1
+tests: {}
+text: |-
+    Vous avez 6 mauvaise(s) réponse(s).
+    Parmi celles-ci, vous avez 6 réponse(s) invalide(s) dans les questions à choix multiple

@@ -1,0 +1,44 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.6521357604803709
+    '@random_0': '0.6521357604803709'
+    '@state': ''
+    '@time': '2022-09-12 14:23:19.063830'
+    '@username': test
+    q1: p74-AS25:AS74, p63-AS51:AS38:AS63, p30-AS30, p46-AS99:AS71:AS46
+    q2: p100-AS100, p74-AS86:AS80:AS74, p46-AS10:AS46
+    q3: p74-AS86:AS80:AS74, p46-AS10:AS46 ,p63-AS36:AS63, p100-AS100, p30-AS61:AS30
+    q4: p46-AS10:AS46, p100-AS100, p74-AS86:AS80:AS74
+problems:
+    q1:
+    - failed
+    - A route learned by a client is preferred over a route learned by a provider
+        or through a shared-cost link; When a route is learned by the same link type,
+        the shortest one is preferred; A route learned by a shared-cost link is preferred
+        over a route learned by a provider; A route learned by a client is preferred
+        over a route learned by a provider and when a route is learned by the same
+        link type, the shortest one is preferred.
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rib
+tests: {}
+text: ''

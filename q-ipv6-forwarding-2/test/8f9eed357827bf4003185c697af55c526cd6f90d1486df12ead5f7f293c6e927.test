@@ -1,0 +1,69 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.693727024076259
+    '@random_0': '0.693727024076259'
+    '@state': ''
+    '@time': '2022-09-09 13:46:48.103808'
+    '@username': test
+    q1: nexthop1
+    q2: nexthop1
+    q3: nexthop1
+    q4: nexthop1
+    q5: nexthop1
+    q6: nexthop1
+    q7: nexthop1
+    q8: nexthop1
+problems:
+    q1:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q2:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q3:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q4:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q5:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q6:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q7:
+    - failed
+    - Remember the binary representation of this address and that IPv6 routers forward
+        packets according to the longest match between the destination address of
+        the packet and the routes in the forwarding table.
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-forwarding-2
+tests: {}
+text: ''

@@ -1,0 +1,55 @@
+best: true
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.674122974597811
+    '@random_0': '0.674122974597811'
+    '@state': ''
+    '@time': '2022-08-25 12:12:31.617235'
+    '@username': test
+    q1: '2001:db8:841::'
+    q2: ::4
+    q3: 'a60::'
+    q4: 2001:db8:e000::31
+    q5: 0:0:7d::c1
+    q6: f8f7::32b:0:0:0
+    q7: b012:ea0:701:fe0:20:cc:b:a00
+    q8: 2001:db8:eb1:250f::1:0
+problems:
+    q1:
+    - success
+    - Correct
+    q2:
+    - success
+    - Correct
+    q3:
+    - success
+    - Correct
+    q4:
+    - success
+    - Correct
+    q5:
+    - success
+    - Correct
+    q6:
+    - success
+    - Correct
+    q7:
+    - success
+    - Correct
+    q8:
+    - success
+    - Correct
+response_type: rst
+result: success
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-ipv6-compress
+tests: {}
+text: ''

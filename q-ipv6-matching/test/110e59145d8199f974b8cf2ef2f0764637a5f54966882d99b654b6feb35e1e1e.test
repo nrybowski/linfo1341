@@ -1,0 +1,59 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random': []
+    '@state': '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+    '@time': '2022-09-12 09:54:48.509846'
+    '@username': test
+    q1:
+    - '8'
+    - '7'
+    - '9'
+    q2: '2'
+    q3:
+    - '7'
+    - '9'
+    - '8'
+    q4: '2'
+    q5:
+    - '9'
+    - '8'
+    - '7'
+    q6: '0'
+problems:
+    q1:
+    - failed
+    - Remember the binary representation of addresses
+    q2:
+    - failed
+    - IPv6 routers forward packets according to the *longest match* between the destination
+        address of the packet and the routes in the forwarding table.
+    q3:
+    - failed
+    - Remember the binary representation of addresses
+    q4:
+    - failed
+    - IPv6 routers forward packets according to the *longest match* between the destination
+        address of the packet and the routes in the forwarding table.
+    q5:
+    - failed
+    - Remember the binary representation of addresses
+    q6:
+    - failed
+    - IPv6 routers forward packets according to the *longest match* between the destination
+        address of the packet and the routes in the forwarding table.
+response_type: rst
+result: failed
+state: '{"q1": "", "q2": "", "q3": "", "q4": "", "q5": "", "q6": ""}'
+status: done
+stderr: null
+stdout: null
+taskid: q-ipv6-matching
+tests: {}
+text: |-
+    Vous avez 6 mauvaise(s) réponse(s).
+    Parmi celles-ci, vous avez 21 réponse(s) invalide(s) dans les questions à choix multiple

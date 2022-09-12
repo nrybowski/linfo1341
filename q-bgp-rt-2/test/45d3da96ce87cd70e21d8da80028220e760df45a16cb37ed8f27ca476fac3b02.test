@@ -1,0 +1,39 @@
+best: false
+courseid: cnp3
+custom: {}
+input:
+    '@attempts': '0'
+    '@email': test@test
+    '@lang': en
+    '@random':
+    - 0.8410088724660364
+    '@random_0': '0.8410088724660364'
+    '@state': ''
+    '@time': '2022-09-12 10:44:13.956344'
+    '@username': test
+    q1: AS1
+    q2: AS3:AS4, AS1
+    q3: AS4, AS5:AS3:AS4, AS1
+    q4: AS4, AS1
+problems:
+    q1:
+    - failed
+    - This AS does not have a route for the prefix
+    q2:
+    - failed
+    - There are too many paths
+    q3:
+    - failed
+    - There are too many paths
+    q4:
+    - failed
+    - There are too many paths
+response_type: rst
+result: failed
+state: ''
+status: done
+stderr: ''
+stdout: ''
+taskid: q-bgp-rt-2
+tests: {}
+text: ''
