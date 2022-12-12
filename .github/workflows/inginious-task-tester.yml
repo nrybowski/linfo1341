@@ -122,7 +122,7 @@ jobs:
         if: steps.cache-inginious.outputs.cache-hit != 'true'
         run: |
           cd ${INGINIOUS}
-          ./inginious-install --default
+          python${{env.PYTHON_VER}} inginious-install --default
           
       - name: Add current repo in course list
         run: ln -s ${GITHUB_WORKSPACE} ${INGINIOUS}/tasks/${REPO_NAME}
