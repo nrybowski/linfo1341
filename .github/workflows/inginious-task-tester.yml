@@ -92,7 +92,7 @@ jobs:
           sudo apt install -y software-properties-common
           sudo add-apt-repository ppa:deadsnakes/ppa
           sudo apt update
-          sudo apt-get install -y python${{env.PYTHON_VER}}
+          sudo apt-get install -y python${{env.PYTHON_VER}} python${{env.PYTHON_VER}}-venv
           python${{env.PYTHON_VER}} -m ensurepip --upgrade
       
       # Get PIP dependencies
