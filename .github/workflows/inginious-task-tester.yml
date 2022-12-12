@@ -6,9 +6,9 @@ name: INGInious tasks tester
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ $default-branch ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ $default-branch ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -50,7 +50,7 @@ jobs:
       
       - name: Get INGInious
         if: steps.cache-inginious.outputs.cache-hit != 'true'
-        run: git clone https://github.com/nrybowski/INGInious ${INGINIOUS}
+        run: git clone https://github.com/UCL-INGI/INGInious.git ${INGINIOUS}
         
       # Get INGInious containers
       - name: Cache INGInious containers
@@ -65,7 +65,7 @@ jobs:
         run: git clone https://github.com/UCL-INGI/INGInious-containers ${CONTAINERS}
           
       # Get APT dependencies
-      # TODO: see https://github.com/actions/cache/issues/324
+      # see https://github.com/actions/cache/issues/324
       - name: "[TMP] Chown APT cache"
         if: steps.cache-apt.outputs.cache-hit != 'true'
         run: sudo chown ${USER}:${USER} -R /var/cache/apt
@@ -77,7 +77,7 @@ jobs:
           path: /var/cache/apt
           key: ${{ runner.os }}-apt
 
-      # TODO: see https://github.com/actions/cache/issues/324
+      # see https://github.com/actions/cache/issues/324
       - name: Install APT dependencies
         if: steps.cache-apt.outputs.cache-hit != 'true'
         run: |
@@ -99,7 +99,7 @@ jobs:
         run: |
           pip3 install --user nose==1.3.7 selenium==3.141.0 coverage pyvirtualdisplay pytest 
           pip3 install --user ${INGINIOUS}
-          pip3 install --upgrade ${PLUGIN_URLS}
+          if [[ ! -z ${PLUGIN_URLS} ]]; then pip3 install --upgrade ${PLUGIN_URLS}; fi
           pip3 install --user --upgrade markupsafe==2.0.1
           
       - name: Start services
@@ -107,23 +107,15 @@ jobs:
           sudo systemctl start mongod
           sudo systemctl start docker
       
-      - name: "[TMP] Get default installer patch"
-        if: steps.cache-inginious.outputs.cache-hit != 'true'
-        run: git -C ${INGINIOUS} checkout default_installer
-
       - name: Install INGInious
         if: steps.cache-inginious.outputs.cache-hit != 'true'
         run: |
           cd ${INGINIOUS}
-          ./inginious-install --default True
+          ./inginious-install --default
           
       - name: Add current repo in course list
         run: ln -s ${GITHUB_WORKSPACE} ${INGINIOUS}/tasks/${REPO_NAME}
       
-      - name: "[TMP] Get task tester patch"
-        if: steps.cache-inginious.outputs.cache-hit != 'true'
-        run:  git -C ${INGINIOUS} checkout task_test
-        
       # Build INGInious containers
       - name: Cache INGInious images
         id: cache-inginious-images
@@ -140,10 +132,5 @@ jobs:
         if: steps.cache-inginious-images.outputs.cache-hit == 'true'
         run: docker load --input ${INGINIOUS_IMAGES}
         
-      - name: "[TMP] Get latest task tester script"
-        run: |
-          wget https://raw.githubusercontent.com/nrybowski/INGInious/task_test/utils/task_tester/inginious-test-task
-          mv inginious-test-task ${INGINIOUS}/utils
-        
       - name: Re-playing old submissions
-        run: python3 ${INGINIOUS}/utils/inginious-test-task -p ${PLUGIN_NAMES} -c ${INGINIOUS}/configuration.yaml ${REPO_NAME}
+        run: python3 ${INGINIOUS}/utils/task_tester/inginious-test-task -p ${PLUGIN_NAMES} -c ${INGINIOUS}/configuration.yaml ${REPO_NAME}
