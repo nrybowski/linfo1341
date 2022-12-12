@@ -18,6 +18,7 @@ env:
   CONTAINERS: /home/runner/containers
   CONFIG_FILE: ${GITHUB_WORKSPACE}/.github/workflows/inginious-task-tester.env
   INGINIOUS_IMAGES: /home/runner/inginious-images.tar
+  PYTHON_VER: 3.11
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -91,7 +92,7 @@ jobs:
           sudo apt install -y software-properties-common
           sudo add-apt-repository ppa:deadsnakes/ppa
           sudo apt update
-          sudo apt-get install -y python3.11
+          sudo apt-get install -y python${{env.PYTHON_VER}}
       
       # Get PIP dependencies
       - name: Cache PIP
@@ -106,10 +107,10 @@ jobs:
       - name: Install PIP dependencies and INGInious
         if: steps.cache-pip.outputs.cache-hit != 'true'
         run: |
-          pip3 install --user nose==1.3.7 selenium==3.141.0 coverage pyvirtualdisplay pytest 
-          pip3 install --user ${INGINIOUS}
-          if [[ ! -z ${PLUGIN_URLS} ]]; then pip3 install --upgrade ${PLUGIN_URLS}; fi
-          pip3 install --user --upgrade markupsafe==2.0.1
+          pip${{env.PYTHON_VER}} install --user nose==1.3.7 selenium==3.141.0 coverage pyvirtualdisplay pytest 
+          pip${{env.PYTHON_VER}} install --user ${INGINIOUS}
+          if [[ ! -z ${PLUGIN_URLS} ]]; then pip${{env.PYTHON_VER}} install --upgrade ${PLUGIN_URLS}; fi
+          pip${{env.PYTHON_VER}} install --user --upgrade markupsafe==2.0.1
           
       - name: Start services
         run: |
@@ -135,11 +136,11 @@ jobs:
         
       - name: Build INGInious images
         if: steps.cache-inginious-images.outputs.cache-hit != 'true'
-        run: python3 ${GITHUB_WORKSPACE}/.github/workflows/inginious-task-tester-container-builder.py
+        run: python${{env.PYTHON_VER}} ${GITHUB_WORKSPACE}/.github/workflows/inginious-task-tester-container-builder.py
           
       - name: Load INGInious Images
         if: steps.cache-inginious-images.outputs.cache-hit == 'true'
         run: docker load --input ${INGINIOUS_IMAGES}
         
       - name: Re-playing old submissions
-        run: python3 ${INGINIOUS}/utils/task_tester/inginious-test-task -p ${PLUGIN_NAMES} -c ${INGINIOUS}/configuration.yaml ${REPO_NAME}
+        run: python${{env.PYTHON_VER}} ${INGINIOUS}/utils/task_tester/inginious-test-task -p ${PLUGIN_NAMES} -c ${INGINIOUS}/configuration.yaml ${REPO_NAME}
