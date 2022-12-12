@@ -24,7 +24,7 @@ jobs:
   # This workflow contains a single job called "build"
   submissions_rerun:
     # The type of runner that the job will run on
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-20.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -83,7 +83,16 @@ jobs:
         run: |
           sudo apt-get install -y libtidy5deb1 libzmq3-dev
           sudo chown ${USER}:${USER} -R /var/cache/apt
-
+      
+      # Add python3.11 because the syntax "tuple[type, type]" is not supported by the shipped python version
+      - name: Add Python3.11
+        if: steps.cache-apt.outputs.cache-hit != 'true'
+        run: |
+          sudo apt install -y software-properties-common
+          sudo add-apt-repository ppa:deadsnakes/ppa
+          sudo apt update
+          sudo apt-get install -y python3.11
+      
       # Get PIP dependencies
       - name: Cache PIP
         id: cache-pip
